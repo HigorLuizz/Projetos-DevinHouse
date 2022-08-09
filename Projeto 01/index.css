@@ -1,0 +1,65 @@
+#main{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+}
+#describe{
+    height: 200px;
+} 
+#slct{
+    width: 178px;
+}
+#conts{
+    display: flex;
+    flex-direction: row ;
+    gap:50px;
+    border: 2px solid black;
+    width:max-content ;
+}
+#btnsForm{
+    display: flex;
+    flex-direction: row;
+    gap:66px;
+}
+#divBusca{
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    width:536px;
+    height:32px;
+  }
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:449px;
+}
+#btnBusca{
+    width: 36px;
+    height: 32px;
+}
+#search{
+    width: 80px;
+    border-radius:15px;
+    height: 32px;
+    background-color:#2F4F4F;
+}
+#cards{
+    width: 536px;
+    height: 447px;
+    border:solid 1px;
+    overflow-y: scroll;
+}
+#right{
+    border:solid 1px;
+    display: flex;
+    flex-direction: column;
+}

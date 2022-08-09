@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div id = "main">
+        <div id = "left">
+            <p>Devin Knowledge</p>
+            <form id = "form">
+                <p>Título</p>
+                <input type="text" id = "title" minlength="8" maxlength="64" placeholder="Digite o título aqui"><br>
+                <p>Linguagem/Skill</p>
+                <input type="text" id ="lenguage" maxlength="16" placeholder="Digite a linguagem aqui"><br>
+                <p>Categoria</p>
+                <select name="select" id="slct">
+                    <option value="FrontEnd" selected>FrontEnd</option>
+                    <option value="BackEnd">BackEnd</option>
+                    <option value="FullStack">FullStack</option>
+                    <option value="SoftSkills">SoftSkills</option>
+                </select><br>
+                <p>Descrição</p>
+                <input type="text" id = "describe" maxlength="512" placeholder="Descreva a dica">
+                <p>Link para Vídeo no Youtube</p>
+                <input type="text" id = "video" placeholder="Digite o Link do vídeo aqui">
+            </form>
+            <div id ="btnsForm">
+                <button id="clear" onclick="limparFormulario()">Limpar</button>
+                <button id ="save" onclick="clickSave()">Salvar</button>
+            </div>
+        </div>
+        <div id = "right">
+            <div id = "conts">
+                <div id ="total"><p>Total 0</p></div>
+                <div id ="front"><p>FrontEnd 0</p></div>
+                <div id ="back"><p>Backend 0</p></div>
+                <div id ="full"><p>FullStack 0</p></div>
+                <div id ="soft"><p>SoftSkills 0</p></div>
+            </div>
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
+                <button id = "search"><img src="lupa.png" id="btnBusca" alt="Buscar"/></button>
+                
+              </div>
+            <div id = "cards"></div>
+        </div>
+    </div>
+</body>
+</html>
