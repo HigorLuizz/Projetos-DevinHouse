@@ -23,7 +23,7 @@
 #btnsForm{
     display: flex;
     flex-direction: row;
-    gap:66px;
+    gap:10px;
 }
 #divBusca{
     background-color:#2F4F4F;

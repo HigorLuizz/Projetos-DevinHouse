@@ -32,6 +32,7 @@
             <div id ="btnsForm">
                 <button id="clear" onclick="limparFormulario()">Limpar</button>
                 <button id ="save" onclick="clickSave()">Salvar</button>
+                <button id = "show" onclick="showCards()">Carregar Dicas</button>
             </div>
         </div>
         <div id = "right">
@@ -44,7 +45,7 @@
             </div>
             <div id="divBusca">
                 <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
-                <button id = "search"><img src="lupa.png" id="btnBusca" alt="Buscar"/></button>
+                <button id = "search" onclick="pesquisar()"><img src="lupa.png" id="btnBusca" alt="Buscar"/></button>
                 
               </div>
             <div id = "cards"></div>
